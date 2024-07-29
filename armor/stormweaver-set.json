@@ -1,0 +1,9 @@
+{
+	"health": 0,
+	"pollutionResistance": 0,
+	"psiIntensity": 0,
+	"set1": "Rolling Stamina cost -20%.",
+	"set2": "Magazine Capacity +15.0%",
+	"set3": "Taking DMG grants a stack of Powered Armor, DMG Reduction +4% for 10s. Effect can stack up to 6 times.",
+	"set4": "Rolling consumes 3 stacks of Powered Armor and triggers an explosion that knocks back surrounding enemies. For each enemy hit, HP +5%, up to 20% (cooldown: 10s)."
+}

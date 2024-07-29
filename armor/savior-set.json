@@ -1,0 +1,9 @@
+{
+	"health": 0,
+	"pollutionResistance": 0,
+	"psiIntensity": 0,
+	"set1": "Medicine Cooldown -20.0%",
+	"set2": "When HP is above 70%, Weapon and Status DMG +10%",
+	"set3": "When HP is below 30%, automatically use the least potent Activator in the Backpack (cooldown: 40s).",
+	"set4": "After using an Activator, Movement Speed + 20%, all DMG +20% and cloak for 2s. 20% DMG Reduction on torso and limbs for 20s."
+}

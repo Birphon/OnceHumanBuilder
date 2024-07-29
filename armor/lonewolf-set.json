@@ -1,0 +1,9 @@
+{
+	"health": 0,
+	"pollutionResistance": 0,
+	"psiIntensity": 0,
+	"set1": "Magazine Capacity +10.0%",
+	"set2": "Crit Rate +5.0%",
+	"set3": "Get 1 stacks of Lone Shadow with every 2 weapon crit hit(s). Lone Shadow: Crit DMG + 6% for 30s. The effect can stack up to 8 times.",
+	"set4": "Increase max Lone Shadow stacks to 10. After a kill, Crit Rate +8% for 2s."
+}

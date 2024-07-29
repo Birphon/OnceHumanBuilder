@@ -1,0 +1,9 @@
+{
+	"health": 0,
+	"pollutionResistance": 0,
+	"psiIntensity": 0,
+	"set1": "When HP is above 70%, Weapon DMG +10%",
+	"set2": "Reload Speed +20.0%",
+	"set3": "Stay crouched and immobile for 0.5 seconds to enter Bastille state, which grants +40% Weapon DMG. Upon exiting Bastille state, sprinting is disabled for 3 seconds and C stamina consumption is increased by 100%.",
+	"set4": "3s after exiting Bastille state, gain 1 stack of Armor per second, up to 60 stacks. While in Bastille state, each stack of Armor provides a Shield equal to 1% of max HP. If the shield drops to 0 during Bastille state, you gain a 30% Vulnerability effect."
+}

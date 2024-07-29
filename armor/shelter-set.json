@@ -1,0 +1,9 @@
+{
+	"health": 0,
+	"pollutionResistance": 0,
+	"psiIntensity": 0,
+	"set1": "Status DMG Reduction +15.0%",
+	"set2": "Element DMG (Blaze, Frost, Shock, Blast) + 8%",
+	"set3": "Each weapon hit grants 1 stack of Deviant Energy. Every stack of Deviant Energy grants 1% Elemental DMG (Blaze, Frost, Shock, Blast). Effect can stack up to 20 times. Reloading removes half of the total stacks.",
+	"set4": "Increase max Deviant Energy stack by 10. Grant 2 additional stacks when hitting a weakspot."
+}

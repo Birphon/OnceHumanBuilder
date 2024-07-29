@@ -1,0 +1,9 @@
+{
+	"health": 0,
+	"pollutionResistance": 0,
+	"psiIntensity": 0,
+	"set1": "Reload Speed +15.0%",
+	"set2": "Weakspot DMG +10.0%",
+	"set3": "Hitting the same enemy consecutively grants 1 stack of Archers Focus, increasing Weakspot DMG by 4%, up to 10 stacks. Archers Focus stacks are halved when the target is changed.",
+	"set4": "When reloading, for every 1% of weakspot hit from the previous magazine, load an extra 0.6% bullets, up to 30%."
+}
