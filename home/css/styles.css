@@ -1,0 +1,95 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.toggle-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#darkModeToggle {
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 24px;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.card-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    /* Slight padding from the card edges */
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: calc(16px + 1.5vw);
+    /* Responsive font size */
+    -webkit-text-stroke: 1px black;
+    /* Border for letters */
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    /* Fallback for other browsers */
+}
+
+.card:hover {
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+.card:hover .card-text {
+    opacity: 1;
+}
+
+#gear {
+    background-image: url('../img/gear.png');
+}
+
+#menu {
+    background-image: url('../img/menu.png');
+}
+
+#fish {
+    background-image: url('../img/fish.png');
+}
+
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+body.dark-mode .card {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}

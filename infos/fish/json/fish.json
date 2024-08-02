@@ -1,0 +1,58 @@
+{
+	"Fresh": {
+		"Name": [
+			"Salmon",
+			"Rainbow Trout",
+			"Bighead Carp",
+			"Carp",
+			"Sucker Fish",
+			"Sunfish",
+			"Arowana",
+			"Oscar Fish",
+			"Tilapia",
+			"Koi Carp"
+		]
+	},
+	"Salt": {
+		"Name": [
+			"Largemouth Black Bass",
+			"Longnose Gar",
+			"Mackerel",
+			"Northern Pike",
+			"Sardine",
+			"Guppy",
+			"Angelfish",
+			"Seabass",
+			"Pompano",
+			"Barracuda"
+		]
+	},
+	"Event": {
+		"Name": [
+			"White Cichlid",
+			"Golden Cichlid",
+			"Jade-Eyes Cichlid",
+			"Lionhead Cichlid",
+			"Red Cichlid",
+			"Large Blue Cichlid",
+			"Large Yellow Cichlid"
+		]
+	},
+	"Location": {
+		"Freshwater": [
+			"Deadsville River (5961,-5623)",
+			"Broken Delta Lake (4696,-6716)",
+			"Greywater River (5690,-3060)",
+			"Chalk Peak Lake (-210,-2189)",
+			"Red Sands River (4989,-1698)"
+		],
+		"Saltwater": [
+			"Dayton Wetlands Sea (7782,-4911)",
+			"Broken Delta Sea (3564,-7203)",
+			"Iron River Sea (7697,-3257)",
+			"Chalk Peak Sea (3117,-7143)",
+			"Red Sands Sea (7216,109)"
+		],
+		"EventLoc": []
+	}
+}

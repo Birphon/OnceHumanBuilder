@@ -1,0 +1,156 @@
+{
+	"ingredients": {
+		"meat": [
+			{ "Name": "Pork Meat", "Effect": { "Max Health+": 50 } },
+			{ "Name": "Bear Meat", "Effect": { "Max Health+": 100 } },
+			{ "Name": "Goat Meat", "Effect": "Slow Recovery" },
+			{ "Name": "Sanity Gummy", "Effect": { "Stamina Boost+": 25 } },
+			{ "Name": "Rabbit Meat", "Effect": { "Stamina Boost+": 40 } },
+			{
+				"Name": "Crocodile Meat",
+				"Effect": { "Pollution Resist": 0.05 }
+			},
+			{
+				"Name": "Snapping Turtle Meat",
+				"Effect": { "Pollution Resist": 0.1 }
+			}
+		],
+		"flower": [
+			{ "Name": "Scarlet Calamus", "Effect": { "Weight": 0 } },
+			{ "Name": "Sage", "Effect": "Duration Boost" },
+			{ "Name": "Bellflower", "Effect": "Effect Boost" },
+			{ "Name": "Honeysuckle", "Effect": "Healing Boost" },
+			{ "Name": "Cornflower", "Effect": "Sanity Restore" },
+			{ "Name": "Yellow Lotus", "Effect": "Long Shelf Life" }
+		],
+		"deviated flower": [
+			{ "Name": "Deviated Scarlet Calamus", "Effect": { "Weight": 0 } },
+			{ "Name": "Deviated Sage", "Effect": "Duration Boost" },
+			{ "Name": "Deviated Bellflower", "Effect": "Effect Boost" },
+			{ "Name": "Deviated Honeysuckle", "Effect": "Healing Boost" },
+			{ "Name": "Deviated Cornflower", "Effect": "Sanity Restore" },
+			{ "Name": "Deviated Yellow Lotus", "Effect": "Long Shelf Life" }
+		],
+		"fish": [
+			{ "Name": "Northern Pike", "Effect": { "Durability +": 100 } },
+			{
+				"Name": "Seabass",
+				"Effect": { "Durability": 0.5, "comment": "50%" }
+			},
+			{ "Name": "Salmon", "Effect": "Food won't spoil" },
+			{
+				"Name": "Rainbow Trout",
+				"Effect": { "Cooldown": 0.5 },
+				"comment": "50%"
+			},
+			{
+				"Name": "Longnose Gar",
+				"Effect": { "Item Weight": 5 },
+				"comment": "500%"
+			},
+			{
+				"Name": "Mackerel",
+				"Effect": { "Energy": 50, "Hydration": 100 },
+				"comment": "-100"
+			},
+			{
+				"Name": "Sardine",
+				"Effect": { "Energy": 5, "Hydration": 0.5 },
+				"comment": "500%, -%50"
+			},
+			{ "Name": "Sunfish", "Effect": { "Mining Speed": 0.1 } },
+			{ "Name": "Bighead Carp", "Effect": { "Logging Speed": 0.1 } },
+			{
+				"Name": "Carp",
+				"Effect": { "Load Boost": 0.1 },
+				"comment": "No idea what this means"
+			},
+			{ "Name": "Sucker Fish", "Effect": { "Swim Speed": 0.1 } },
+			{ "Name": "Tilapia", "Effect": { "Mining Speed": 0.15 } },
+			{
+				"Name": "Oscar Fish",
+				"Effect": { "Load Boost": 0.15 },
+				"comment": "No idea what this means"
+			},
+			{ "Name": "Arowana", "Effect": { "Swim Speed": 0.15 } },
+			{ "Name": "Sea Bass", "Effect": { "Fire Rate": 0.1 } },
+			{ "Name": "Angelfish", "Effect": { "Crit Damage": 0.05 } },
+			{ "Name": "Pompano", "Effect": { "Weakspot Damage": 0.5 } },
+			{ "Name": "Barracuda", "Effect": { "Psi Intensity": 0.5 } }
+		]
+	},
+	"foods": [
+		{
+			"Name": "Canned Lunch Meat",
+			"Cost": { "meat": 1, "aluminium": 1 },
+			"Survival": { "Energy": 0, "Hydration": 0, "Sanity": 0 },
+			"Effect": {
+				"HP Boost": "Max HP +10%",
+				"Canned": "Food preserved in an Aluminium Can, long-lasting and is ideal for long-term storage"
+			},
+			"Spoil Timer": null,
+			"Duration": 1800.0
+		},
+		{
+			"Name": "Canned Meat",
+			"Cost": { "meat": 1, "salt": 2, "aluminium": 1 },
+			"Survival": { "Energy": 80, "Hydration": 0, "Sanity": 0 },
+			"Effect": {
+				"Shrapnel Enhancement": "Shrapnel DMG +10%",
+				"Canned": "Food preserved in an Aluminium Can, long-lasting and is ideal for long-term storage"
+			},
+			"Spoil Timer": null,
+			"Duration": 1800.0
+		},
+		{
+			"Name": "Shellfish Meat",
+			"Cost": { "shellfish": 2, "sugar": 2, "purified water": 2 },
+			"Survival": { "Energy": 80, "Hydration": 0, "Sanity": 0 },
+			"Effect": {
+				"Weakening Hex": "Hitting enemies grants Vulnerability +8% for 10 seconds"
+			},
+			"Spoil Timer": 24,
+			"Duration": 1800.0
+		},
+		{
+			"Name": "Stardust Raspberry Shaved Ice",
+			"Cost": {
+				"alovera": 2,
+				"blueberry": 5,
+				"hawthorn": 5,
+				"ice cube": 5
+			},
+			"Survival": { "Energy": 0, "Hydration": 0, "Sanity": 0 },
+			"Effect": {
+				"Status Enhancement": "Continuous Debuff Duration +20%"
+			},
+			"Spoil Timer": 24,
+			"Duration": 1800.0
+		},
+		{
+			"Name": "Ice Tea",
+			"Cost": { "flower": 1, "purified water": 2, "ice cube": 2 },
+			"Survival": { "Energy": 0, "Hydration": 80, "Sanity": 800 },
+			"Effect": {
+				"Swift Step": "Roll Speed increased by 25%. Movement Speed boosted by 20% over 2 seconds after Rolling"
+			},
+			"Spoil Timer": 24,
+			"Duration": 1800.0
+		},
+		{
+			"Name": "Stardust Energy Drink",
+			"Cost": {
+				"safron": 2,
+				"purified water": 5,
+				"sugar": 2,
+				"aluminium": 1
+			},
+			"Survival": { "Energy": 0, "Hydration": 0, "Sanity": 0 },
+			"Effect": {
+				"Skybound": "Be able to double jump"
+			},
+			"Spoil Timer": null,
+			"Duration": 1800.0
+		}
+	]
+}

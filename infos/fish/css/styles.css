@@ -1,0 +1,147 @@
+/* Base Styles */
+body {
+    font-family: 'Rubik', sans-serif;
+    /* Apply Rubik font */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    position: relative;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    /* Adjust rows based on content */
+    gap: 10px;
+    width: 80%;
+    height: auto;
+    /* Adjust height based on content */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.grid-item {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: 100px;
+    /* Optional: Ensure a minimum height */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.card input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.header {
+    position: absolute;
+    top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 20px);
+    /* Full width minus padding */
+    padding: 0 10px;
+}
+
+.dark-mode-button {
+    background: #ddd;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+}
+
+.dark-mode-button:hover {
+    background-color: #ccc;
+}
+
+.counter-container {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #333;
+    color: #ddd;
+}
+
+body.dark-mode .grid-item,
+body.dark-mode .counter-container,
+body.dark-mode .card {
+    background: #444;
+    border-color: #666;
+}
+
+body.dark-mode .card {
+    color: #ddd;
+}
+
+body.dark-mode .dark-mode-button {
+    background: #333;
+    color: #ddd;
+    border: 1px solid #666;
+}
+
+body.dark-mode .dark-mode-button:hover {
+    background-color: #444;
+}
+
+/* Responsive design for tablets and mobile devices */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        /* Stack items in one column */
+        grid-template-rows: auto auto auto auto auto auto;
+        /* Adjust rows to accommodate stacked items */
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .counter-container {
+        width: 100%;
+        /* Full width for better visibility on smaller screens */
+        text-align: center;
+        /* Center align text in counter */
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-container {
+        width: 100%;
+        /* Full width for very small screens */
+    }
+
+    .card {
+        font-size: 14px;
+        /* Smaller font size for better readability on small screens */
+        padding: 8px;
+        /* Adjust padding */
+    }
+}
